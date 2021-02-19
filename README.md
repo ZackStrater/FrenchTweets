@@ -16,8 +16,11 @@ Upon viewing the text of a sample of the tweets, we noticed that a large portion
 We filtered out the irrelevant tweets by creating another dataframe that only including tweets that include references to the election or its candidates (i.e. Macron, Le Pen, président, etc...) using the SQL LIKE feature.  This significantly shrunk the dataset from ~214,000 tweets to ~14,000 tweets  
 
 
+## Graphs
 
+### Graphs of hashtag frequencies
+#### Hashtags from all tweets
+![Graph of hastags from all tweets](pics/hashtags_all_data.png)
 
-
-
-
+#### Hashtags from selected filtered tweets
+![Graph of hashtags from selected tweets](pics/hashtags.png)
