@@ -18,5 +18,5 @@ We filtered out the irrelevant tweets by creating another dataframe that only in
 ## Graphs
 
 ### Graphs of hashtag frequencies
-[Graph of hastags from all tweets](pics/hashtags_all_data.png)
-[Graph of hashtags from selected tweets](pics/hashtags.png)
+![Graph of hastags from all tweets](pics/hashtags_all_data.png)
+![Graph of hashtags from selected tweets](pics/hashtags.png)
