@@ -27,7 +27,7 @@ We filtered out the irrelevant tweets by creating another dataframe that only in
 
 
 ### Number of Tweets Referencing each Candidate
-![Number of Tweets Referencing each Candidate](pics/'Candidate Mention Count'.png)
+![Number of Tweets Referencing each Candidate](pics/'Candidate Mention Count.png')
 
 ### Number of Tweets Referencing each Party
-![Number of Tweets Referencing each Party](pics/'Party Mention Count'.png)
+![Number of Tweets Referencing each Party](pics/'Party Mention Count.png')
