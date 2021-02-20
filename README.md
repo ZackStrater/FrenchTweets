@@ -15,6 +15,12 @@ Upon viewing the text of a sample of the tweets, we noticed that a large portion
 
 We filtered out the irrelevant tweets by creating another dataframe that only including tweets that include references to the election or its candidates (i.e. Macron, Le Pen, président, etc...) using the SQL LIKE feature.  This significantly shrunk the dataset from ~214,000 tweets to ~14,000 tweets  
 
+We then compared the number of mentions of each of the two candidates running as well as their corresponding parties.  We found that Macron was mention more than double the amount of times as his opponent, Le Pen.  Interestingly, Macron's party, En Marche!, was rarely mentioned compared to Le Pen's party, national front.
+
+
+
+The most challenging part of this excercise was cleaning the dataset of irrelevant tweets when the content of the tweets were in a foreign language. Our attempts to filter the data by looking for specific search terms may have been too draconian, filtering out some relevant data that could have been used in the dataset.
+
 
 ## Graphs
 
