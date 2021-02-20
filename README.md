@@ -17,7 +17,7 @@ We filtered out the irrelevant tweets by creating another dataframe that only in
 
 We then compared the number of mentions of each of the two candidates running as well as their corresponding parties.  We found that Macron was mention more than double the amount of times as his opponent, Le Pen.  Interestingly, Macron's party, En Marche!, was rarely mentioned compared to Le Pen's party, national front.
 
-
+To filter by hashtag, because of the way twitter return the hashtags (stored in a nested list) some additional work was needed to extract the hashtag itself from the nested structure of the entities structure. Once we looked at this we found that Marcon was mentioned in half of the tags within the top 10 (notably Marcon, BlocusNiFnNiMarcon, JeVoteMarcon, marcon, MacronPrésident)
 
 The most challenging part of this excercise was cleaning the dataset of irrelevant tweets when the content of the tweets were in a foreign language. Our attempts to filter the data by looking for specific search terms may have been too draconian, filtering out some relevant data that could have been used in the dataset.
 
